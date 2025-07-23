@@ -36,41 +36,100 @@
     </nav>
 
 
-    <div class="text-center bg-light my-5">
+    <div class="text-center bg-light py-5">
         <p class="h1">Welcome Students!</p>
         <p class="lead">This is a simple bootstrap 4 website for practice.</p>
         <button type="button" class="btn btn-primary">Learn More</button>
-
     </div>
 
-    <p class="h4 text-center my-5">Pracice Cards</p>
-    <div class="cards d-flex justify-content-center">
-        <div class="card" style="width: 18rem;margin:20px;">
-            <img src="./images/img-placeholder.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card one</h5>
-                <p class="card-text">Use this card to practice layout and styling.</p>
-                <button type="button" class="btn btn-primary bg-white text-primary">Try</button>
+    <div class="container">
+        <h2 class="py-5 text-center">Practice Cards</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/img-placeholder.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card one</h5>
+                            <p class="card-text">Use the card to practice layout and styling.</p>
+                            <a href="#" class="btn btn-primary bg-white text-primary">Try</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;margin:20px;">
-            <img src="./images/img-placeholder.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card two</h5>
-                <p class="card-text">Modify text and experiment with buttons.</p>
-                <button type="button" class="btn btn-success bg-white text-success">Explore</button>
+            <div class="col-lg-4 col-md-6">
+                <div class="mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/img-placeholder.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card two</h5>
+                            <p class="card-text">Modify and experiment with buttons.</p>
+                            <a href="#" class="btn btn-success bg-white text-success">Explore</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;margin:20px;">
-            <img src="./images/img-placeholder.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card three</h5>
-                <p class="card-text">Replace images and change layout.</p>
-                <a href="#" class="btn btn-danger bg-white text-danger">Practice</a>
+            <div class="col-lg-4 col-md-6">
+                <div class="mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/img-placeholder.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card three</h5>
+                            <p class="card-text">Replace images and change layout.</p>
+                            <a href="#" class="btn btn-danger bg-white text-danger">Practice</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+
+    <div class="container bg-light">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="pt-5 mb-5">
+                    <h2>About This website</h2>
+                    <p>This website is designed for students l;earning Bootstrap 4. You can modify, experiment, and add
+                        your owncomponents as you learn.</p>
+                    <p>Feel Free to try different layouts, use utility clases, and explore Bootstrap Components.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about mb-5">
+                    <img src="./images/img-placeholder.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="py-5 text-center">Key Features</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="text-center mb-5">
+                <h2>Responsive</h2>
+                <p>All layouts adjust based on screen size. Try it on mobile!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="text-center mb-5">
+            <h2>Reusable</h2>
+            <p>Components like cards, buttons, and navbars can be reused.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="text-center mb-5">
+            <h2>Customizable</h2>
+            <p>Change clors, padding, margins, and more with utility classes.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <footer class="text-center bg-dark text-white">
+        <span>2025 Practice Bootstrap Website</span>
+    </footer>
     <script src="./bootstrap-4.6.2-dist/js/jquery.slim.min.js"></script>
     <script src="./bootstrap-4.6.2-dist/js/popper.min.js"></script>
     <script src="./bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
